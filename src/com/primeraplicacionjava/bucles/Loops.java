@@ -1,3 +1,5 @@
+package com.primeraplicacionjava.bucles;
+
 import java.util.Scanner;
 
 public class Loops {

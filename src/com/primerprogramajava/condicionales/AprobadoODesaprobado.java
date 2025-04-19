@@ -1,3 +1,5 @@
+package com.primerprogramajava.condicionales;
+
 import java.util.Scanner;
 
 public class AprobadoODesaprobado {
