@@ -16,11 +16,11 @@ public class VerificacionDescuento {
         precioConDescuento = precioProducto * porcentajeDescuento;
 
         if (precioProducto >= 100.00) {
-            System.out.println("El descuento del 10% se ha aplicado correctamente.");
-            System.out.println("Precio original: $" + precioProducto);
+            System.out.println("Descuento del 10% aplicado.");
+            System.out.println("Nuevo valor: $" + precioProducto);
             System.out.println("Precio con descuento: $" + precioConDescuento);
         } else {
-            System.out.println("El descuento no se ha aplicado.\nValor total: $" + precioProducto);
+            System.out.println("Descuento no aplicado.\nValor total: $" + precioProducto);
         }
     }
 }
